@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 style="color: blue; font-size:500%">Hello World!</h1>
+
+    <h3>A substitle</h3>
+
+    <button id = 'navigateButton'>Go to another page</button>
+
+    <script>
+        const navigateButton = document.getElementById('navigateButton')
+        navigateButton.addEventListener('click', function() {
+            window.location.href = 'https://www.google.com/';
+        })
+    </script>
+
+    <p id="main">My name is Anya. </p>
+
+    <p class='A'>Today is a <b>good</b> day!</p>
+
+    <p>I will an A in <i>DS4200</i></p>
+
+    <a href="https://www.northeastern.edu">Please check out NU website</a> 
+
+    <ul class = 'A'>
+        <li>Talk to my TAs</li>
+        <li>Regrade quiz</li>
+        <li>Read papers</li>
+    </ul>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/1280px-Cat_November_2010-1a.jpg" alt="" width="500">
+
+</body>
+</html>
